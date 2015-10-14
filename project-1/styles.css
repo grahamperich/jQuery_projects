@@ -1,3 +1,7 @@
+body {
+    background: rgba(236, 240, 241,1.0);
+}
+
 .container {
     margin: auto;
     width: 1215px;
@@ -21,7 +25,16 @@ h1 {
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
+h2 {
+    margin-top: 10px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
 a {
     margin: 16px;
     display: inline-block;
+}
+
+a:hover {
+    background: rgba(52, 152, 219,1.0);
 }
