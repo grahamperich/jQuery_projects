@@ -1,0 +1,40 @@
+#center {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#container {
+  margin: 0 auto;
+  padding: 0px;
+  width: 480px;
+  height: 480px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  display: inline-block;
+}
+
+.square {
+  padding: 0px;
+  margin: -1px;
+  height: 30px;
+  width: 30px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  display: inline-block;
+  background-color: white;
+  float: left;
+}
+
+.align-left {
+  float: left;
+}
+
+#clear-grid {
+
+}
+
+h1 h4 {
+  font: arial;
+}
