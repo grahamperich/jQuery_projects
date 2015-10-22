@@ -20,27 +20,21 @@ $(document).ready(function () {
 				$(this).remove();
 			})
 
-			var a = prompt("Enter your desired number of squares in each row");
+		var a = prompt("Enter your desired number of squares in each row");
 				
-			var newSquareSize = 480 / a ;  //480 is the canvas size in main.css
+		var newSquareSize = 480 / a ;  //480 is the canvas size in main.css
 				
 				
-				$("<div class='square'></div>").appendTo( "#container");
+			$("<div class='square'></div>").appendTo( "#container");
 
-				$(".square").css("width", newSquareSize);
-				$(".square").css("height", newSquareSize);
+			$(".square").css("width", newSquareSize); // sets width and height of squares to comply with user's desired number of squares per row
+			$(".square").css("height", newSquareSize);
 
-				var loopController = (a * a) - 1;
-				
-				for (var i = 0; i < loopController; i++) {
-					$(".square").first().clone().appendTo("#container");
-				};
+			var loopController = (a * a) - 1; // we start with 1 square from 'appento' line above, so we have to -1 here
 			
+			for (var i = 0; i < loopController; i++) {
+				$(".square").first().clone().appendTo("#container");
+			};
 
-			
-
-		});
-		
-		
-
+		});	
 });
