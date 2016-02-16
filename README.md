@@ -1,0 +1,2 @@
+## .js Projects
+This is where I store all of my little jQuery/javaScript explorations. The coding_challenges folder contains my solutions to various coding puzzles from across the web. The other folders are my attempts at building things with JS to learn new programming concepts/functionalities and hone my webdev skills.
